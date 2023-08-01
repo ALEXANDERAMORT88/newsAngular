@@ -1,0 +1,56 @@
+.containerSetion {
+    /* width: 1000px; */
+    margin: 0 100px;
+    display: block;
+    justify-content: center;
+}
+section {
+    margin: 0 100px ;
+    display: flex;
+}
+
+.content {
+    width: 900px;
+    display: flex;
+}
+
+.present {
+    display: flex;
+    align-items: center;
+    background-color: #e75660;
+    border-radius: 6px;
+    height: 35px;
+    width: 300px;
+    color: white;
+}
+
+.containerInf {
+    text-align: right;
+}
+
+.imgNoticia {
+    margin-left: 15px;
+}
+
+.imgPresent {
+    height: 16px;
+    margin: 10px;
+}
+
+.borde {
+    margin: 5px 25px;
+    border-bottom: 1px solid black;
+}
+
+.linea {
+    border-left: 1px solid black;
+}
+
+.linea1 {
+    border-bottom: 2px solid blue;
+    margin-bottom: 10px;
+}
+.linea2 {
+    border-bottom: 2px solid red;
+    margin-top: 15px;
+}

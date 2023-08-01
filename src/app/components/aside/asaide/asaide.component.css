@@ -1,0 +1,45 @@
+.containerBotton {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.btnSeccion span{
+    position: relative;
+    transition: .3s;
+    font-size: 13px;
+}
+
+.btnSeccion span::after {
+    content: '\00b';
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+
+.btnSeccion:hover span {
+    padding: 10px;
+}
+
+.btnSeccion:hover span::after {
+    opacity: 1;
+    right: 0;
+}
+
+.btn {
+    height: 40px;
+    width: 120px;
+    margin: 0 5px;
+    background-color: #e3e2ea;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-size: 15px;
+    transition: .4s;
+    cursor: pointer;
+    color: rgb(92, 90, 90);
+}
+
+.btn:hover {
+    background-color: #a3a3c9;
+    color: black;
+}
